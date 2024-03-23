@@ -1,12 +1,12 @@
 "use client";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { BiBell, BiUser } from "react-icons/bi";
 import { FaCaretRight } from "react-icons/fa";
 import { RiMessage2Fill, RiMoneyDollarCircleLine } from "react-icons/ri";
 
 export const SideBar = () => {
   const width = "350px";
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const handleToggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
