@@ -17,6 +17,14 @@ export const Disscussion = () => {
 
         <CommentBox />
         <CommentBox />
+        <CommentBox />
+
+        <CommentBox />
+        <CommentBox />
+        <CommentBox />
+
+        <CommentBox />
+        <CommentBox />
       </div>
     </div>
   );

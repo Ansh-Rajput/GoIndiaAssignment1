@@ -12,10 +12,10 @@ export const MarketStoryBox = () => {
                 />
             </div>
             <div className="p-2">
-                <div>
+                <div className="text-lg">
                     Title
                 </div>
-                <div>
+                <div className="text-gray-500 overflow-hidden line-clamp-5">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus aspernatur, impedit pariatur saepe animi eius nostrum sapiente omnis inventore aut.
                 </div>
             </div>

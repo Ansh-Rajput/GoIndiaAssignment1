@@ -4,7 +4,7 @@ import { IoShareSocialOutline } from "react-icons/io5";
 
 export const CommentBox = () => {
   return (
-    <div className="w-[calc(100%-100px)] m-auto grid grid-cols-12 shadow-md rounded-md min-h-[calc(100%/4-20px)] my-5">
+    <div className="w-[calc(100%-100px)] m-auto grid grid-cols-12 shadow-md rounded-md max-h-[calc(100vh/4)] my-5">
       <div className="flex justify-center col-span-2">
         <FaUserCircle size={25} />
       </div>
@@ -13,7 +13,7 @@ export const CommentBox = () => {
           Lorem ipsum
           <span className="text-white bg-blue-600 rounded-xl text-center flex items-center px-1 text-xs">sector 2</span>
         </div>
-        <div className="text-sm">
+        <div className="text-sm  line-clamp-3 overflow-hidden">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, autem?
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, autem?
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, autem?
